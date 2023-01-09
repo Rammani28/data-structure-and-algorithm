@@ -169,10 +169,9 @@ void display(){
 int main()
 {
 	int n;
-	printf("\n0.Exit\n1.Insert at beginning\n2.Insert at end\n3.Insert at specified position\n4.Delete at beginning\n5.Delete at end\n6.Delete at specified position\n7.Display all elements in list");
 	while(1)
 	{
-	
+	printf("\n0.Exit\n1.Insert at beginning\n2.Insert at end\n3.Insert at specified position\n4.Delete at beginning\n5.Delete at end\n6.Delete at specified position\n7.Display all elements in list");
 	printf("\nEnter your choice :");
 	scanf("%d",&n);
 	switch(n)
